@@ -1,0 +1,49 @@
+body{
+    background-color:  #E5E5E5;
+}
+
+.navbar img{
+  width: 40px;
+}
+.player img{
+    width: 56px;
+}
+main{
+    max-width: 870px;
+}
+h3{color:#562EFF;
+
+}
+.card-text{
+    font-family: 'Roboto';
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#ED6B4F;
+;
+
+}  
+.star{
+    height: 10px;
+    width: 15px;
+    
+    border-radius: 0px;
+      
+}
+.clock{
+    height: 15px;
+width: 20px;
+}
+.time{
+    border-radius: 14px;
+    color:  #FF4A60;
+    background-color:#FFE4E8 ;text-align: center;
+    height: 34px;
+width: 95px;
+}
+.time:hover{
+    box-shadow: 7px 7px 30px solid lightcoral;
+    border: 0.1px solid darkorange;
+}
