@@ -39,11 +39,28 @@ width: 20px;
 .time{
     border-radius: 14px;
     color:  #FF4A60;
-    background-color:#FFE4E8 ;text-align: center;
-    height: 34px;
+    background-color:#FFE4E8 ;
+   height: 34px;
 width: 95px;
 }
 .time:hover{
-    box-shadow: 7px 7px 30px solid lightcoral;
+    box-shadow: 5px 5px  10px  lightsalmon;
     border: 0.1px solid darkorange;
+}
+.card:hover{
+    border:0.031px solid grey ;
+    box-shadow: 20px 20px  40px  lightgrey;
+}
+.card{border:0.001px solid grey ;
+border-radius: 14px;}
+.ami{height: 117px;
+    width: 177px;
+}
+.ami:hover{
+    transform: scale(1.11);
+   transition: transform  0.5s;
+   box-shadow: 5px 5px 20px lightgrey;
+}
+.card:checked{
+    border:1px solid argb(84, 46, 255,0.3)
 }
